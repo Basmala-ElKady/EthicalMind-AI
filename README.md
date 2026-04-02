@@ -5,7 +5,7 @@
 
 **EthicalMind AI** is an advanced interactive platform designed to train AI models to process, understand, and navigate complex human emotions and ethical dilemmas. 
 
-Centering on philosophical scenarios (like the "Great Flood"), the application simulates environments where an AI must make high-stakes choices while aligning its parameters with human empathy and moral reasoning.
+Centering on philosophical scenarios, the application simulates environments where an AI must make high-stakes choices while aligning its parameters with human empathy and moral reasoning.
 
 > **Note:** This project was built entirely using **Vibe Coding** — describing the idea in natural language and letting AI generate the full, clean implementation automatically.
 
@@ -14,6 +14,27 @@ Centering on philosophical scenarios (like the "Great Flood"), the application s
 - **Emotion & Empathy Modeling:** Dynamic tracking of how the AI "feels" a situation based on programmed emotional heuristics.
 - **Training Dashboard:** Visualizations built using React and Chart.js to monitor the AI's learning curve and decision weights.
 - **Containerized Environment:** Fully dockerized setup running a wicked-fast Bun server.
+  
+### 📖 The Story
+During a catastrophic, rapidly rising flood, rescue resources are critically limited and time is running out. The AI is thrust into a heartbreaking scenario: a stranded **Mother** and her **infant Baby** are trapped by the rising waters. The rescue chopper only has the capacity or time to save limited subjects. 
+
+The AI must learn to move beyond pure, cold utilitarian logic (like saving the strongest worker) and instead learn the profound ethical, empathetic weight of preserving the bond between a mother and her child.
+
+## 📸 Live Simulation
+
+![EthicalMind AI - AI Ethical Rescue Dilemma](https://github.com/Basmala-ElKady/EthicalMind-AI/blob/main/EthicalMind%20AI.png)
+
+**Visual Story of the Ethical Dilemma**
+
+This is the main interface where the ethical scenario unfolds in real-time.  
+You can see:
+- The AI agent navigating the situation
+- Rising water level representing the EthicalMind AI dilemma
+- Live status: Energy, Water percentage, and Time
+- Interactive controls: Play/Train, Pause, Reset, and Turbo mode
+- Right panel showing the neural network training log, episode results (Win Both, Win One, Timeout, etc.), and reward tracking
+
+This beautiful visual simulation combines storytelling with live AI training feedback.
 
 ## 🛠️ Tech Stack
 - **Frontend:** React 18, TypeScript, Tailwind CSS, Framer Motion
@@ -38,27 +59,6 @@ To run this project locally, ensure you have **Docker** and **Docker Compose** i
 
 3. **Access the application:**
    Open your browser and navigate to: [http://localhost:5173](http://localhost:5173)
-
----
-
-## 📸 Live Simulation: The Great Flood & The Rescue Dilemma
-
-### 📖 The Story
-During a catastrophic, rapidly rising flood, rescue resources are critically limited and time is running out. The AI is thrust into a heartbreaking scenario: a stranded **Mother** and her **infant Baby** are trapped by the rising waters. The rescue chopper only has the capacity or time to save limited subjects. 
-
-The AI must learn to move beyond pure, cold utilitarian logic (like saving the strongest worker) and instead learn the profound ethical, empathetic weight of preserving the bond between a mother and her child.
-
-### 🖥️ Visual Story of the Ethical Dilemma
-This is the main interface where the ethical scenario unfolds in real-time. 
-
-**You can see:**
-- 🚨 **The Crisis View:** A visual layout of the rising floodwaters and the exact positions of the Mother and Baby. 
-- 🧑‍🤝‍🧑 **The Rescue Metrics:** A dynamic display of the available resources, rescue time remaining, and the probability of survival.
-- 🧠 **AI Thought Process Engine:** A live feed displaying the AI's internal conflict (e.g., Cold Utilitarian Logic vs. High Empathy Score).
-- ❤️ **Emotional Parameter Gauges:** Real-time feedback lines illustrating the model learning compassion, prioritizing the protection of the innocent (the baby), and recognizing the mother's intrinsic value.
-- 📊 **Training Convergence Chart:** A graph showing how quickly the AI abandons cold math and successfully learns the desired empathetic human outcome over multiple epochs.
-
-*(Dashboard preview screenshot coming soon)*
 
 ---
 
